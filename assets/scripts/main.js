@@ -134,7 +134,7 @@ for(let i=0; i< RECIPE_URLS.length; i++){
   catch(error){
   // A10. TODO - Log any errors from catch using console.error
   console.error(error);
-  // A11. TODO - Pass any errors to the Promise's reject() function
+  // A11. TODO - Pass any errors to the Promise's reject() function reject
   reject(error);
   }
 }
