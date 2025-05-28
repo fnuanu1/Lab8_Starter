@@ -8,3 +8,4 @@ How are service workers and graceful degradation related?
 - Graceful degradation works down gracefully so we want to have some functionality and keep adding more tedious things so service workers add features like offline support and caching — so the app still works if they fail or aren't supported. Together, they help build more resilient and accessible web apps on/offline.
 Image: ![](Service.png)
 Image: ![](pwa.png)
+Note: My console was throwing some errors, and I had shown a TA, to which they said that those were browser-based unsupporting/supporting errors, which they said are fine, so I am showing the pciture above above everything working, but they might fail based on browser/incognito, etc. (which is what the TA said was to be unpredictable on client side, which is to be careful about)
