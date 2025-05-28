@@ -57,7 +57,7 @@ window.addEventListener('load', async event=>{
 
   // B4. TODO - Once the service worker has been successfully registered, console
   //            log that it was successful.
-  .then(console.log("The service worker has been successfully registered"));
+  (console.log("The service worker has been successfully registered"));
   }
   
   // B5. TODO - In the event that the service worker registration fails, console
